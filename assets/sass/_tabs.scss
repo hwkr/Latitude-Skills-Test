@@ -71,7 +71,7 @@
 
 }
 
-.tab-content {
+.tab-panel {
   align-items: center;
   border-bottom: $border-width solid $border-color;
   display: flex;
@@ -79,8 +79,13 @@
   list-style: none;
   margin: -1* $unit-1 0 $unit-1 0;
   padding: $unit-2;
+  display: none;
 
-  .tab-content-item {
+  &.active {
+    display: flex;
+  }
+
+  &-item {
     margin: 0 $unit-2  -1 * $border-width 0;
   }
 }

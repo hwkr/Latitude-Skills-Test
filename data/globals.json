@@ -30,15 +30,57 @@
     },
     {
       "title": "Navigate",
-      "id": "navigate"
+      "id": "navigate",
+      "items": [
+        {
+          "label": "Initial View",
+          "icon": "assets/img/initial-map-view.png"
+        },
+        {
+          "label": "Zoom In",
+          "icon": "assets/img/zoom-in.png"
+        },
+        {
+          "label": "Zoom Out",
+          "icon": "assets/img/zoom-out.png"
+        },
+        {
+          "label": "Pan",
+          "icon": "assets/img/pan-map.png"
+        }
+      ]
     },
     {
       "title": "Measure",
-      "id": "measure"
+      "id": "measure",
+      "items": [
+        {
+          "label": "Measure Distance",
+          "icon": "assets/img/measure-distance.png"
+        },
+        {
+          "label": "Measure Area",
+          "icon": "assets/img/measure-area.png"
+        }
+      ]
     },
     {
       "title": "Export",
-      "id": "export"
+      "id": "export",
+      "items": [
+        {
+          "label": "Create Report",
+          "icon": "assets/img/reports.png"
+        },
+        {
+          "label": "Print",
+          "icon": "assets/img/print.png"
+        },
+        {
+          "label": "Export",
+          "icon": "assets/img/export.png"
+        }
+      ]
     }
   ],
   "environment": {

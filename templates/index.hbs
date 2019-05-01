@@ -2,13 +2,13 @@
 <div class="columns">
     <div class="column">
         <div class="toolbar">
-            <ul class="tab">{{#each tabs}}
-                <li class="tab-item">
-                    <a href="#" id="{{id}}">{{title}}</a>
+            <ul class="tab" {{id}}>{{#each tabs}}
+                <li class="tab-item {{#if (equals @index 0)}}active{{/if}}">
+                    <a href="#{{id}}" aria-controls="{{id}}" role="tab" data-toggle="tab">{{title}}</a>
                 </li>{{/each}}
             </ul>{{#each tabs}}
-            <ul class="tab-content">{{#each items}}
-                <li class="tab-content-item">
+            <ul class="tab-panel {{#if (equals @index 0)}}active{{/if}}" role="tabpanel" id="{{id}}">{{#each items}}
+                <li class="tab-panel-item">
                     <button class="btn"><img class="icon" src="{{icon}}"/> {{label}}</button>
                 </li>{{/each}}
             </ul>{{/each}}
