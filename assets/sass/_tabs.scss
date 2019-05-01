@@ -1,7 +1,6 @@
 // Tabs
 .tab {
   align-items: center;
-  border-bottom: $border-width solid $border-color;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -16,7 +15,7 @@
       border-radius: $border-radius $border-radius 0 0;
       color: inherit;
       display: block;
-      margin: 0 $unit-2  -1 * $border-width 0;
+      margin: 0 $unit-1  0 $unit-1;
       padding: $unit-2 $unit-3 $unit-2 - $border-width-lg $unit-3;
       text-decoration: none;
       &:focus,
@@ -73,11 +72,12 @@
 
 .tab-panel {
   align-items: center;
-  border-bottom: $border-width solid $border-color;
+  border: $border-width solid $border-color;
+  border-radius: $border-radius $border-radius 0 0;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: -1* $unit-1 0 $unit-1 0;
+  margin: -1 * $unit-1 0 0 0;
   padding: $unit-2;
   display: none;
 
