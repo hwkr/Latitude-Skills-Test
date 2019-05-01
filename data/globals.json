@@ -1,0 +1,16 @@
+{
+  "title": "Mockup Starter",
+  "base_url": "",
+  "sections": {
+    "home": {
+      "title": "Home",
+      "path": ""
+      }
+  },
+  "environment": {
+    "today": {
+      "full": "May 4, 2019",
+      "day": "tuesday"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mockup-starter",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hwkr/MockupStarter.git"
+  },
+  "bugs": "https://github.com/hwkr/MockupStarter/issues",
+  "contributors": "https://github.com/hwkr/MockupStarter/graphs/contributors",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-compile-handlebars": "^2.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "spectre.css": "^0.5.8"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "^2.0.0"
+  }
+}
