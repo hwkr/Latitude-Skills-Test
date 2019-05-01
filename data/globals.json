@@ -7,6 +7,40 @@
       "path": ""
       }
   },
+  "tabs": [
+    {
+      "title": "General",
+      "id": "general",
+      "items": [
+        {
+          "label": "Home",
+          "icon": "assets/img/home.png"
+        },
+        {
+          "label": "Filter",
+          "icon": "assets/img/filter.png"
+        },
+        {
+          "label": "Search",
+          "hasSearch": true,
+          "placeholder": "Search",
+          "icon": "assets/img/search.png"
+        }
+      ]
+    },
+    {
+      "title": "Navigate",
+      "id": "navigate"
+    },
+    {
+      "title": "Measure",
+      "id": "measure"
+    },
+    {
+      "title": "Export",
+      "id": "export"
+    }
+  ],
   "environment": {
     "today": {
       "full": "May 4, 2019",

@@ -1,11 +1,17 @@
 {{#>default section=sections.home page=sections.home}}
 <div class="columns">
     <div class="column">
-        <div class="hero bg-gray">
-            <div class="hero-body">
-                <h1>{{page.title}}</h1>
-                <p>{{../user.content}}</p>
-            </div>
+        <div class="toolbar">
+            <ul class="tab">{{#each tabs}}
+                <li class="tab-item">
+                    <a href="#" id="{{id}}">{{title}}</a>
+                </li>{{/each}}
+            </ul>{{#each tabs}}
+            <ul class="tab-content">{{#each items}}
+                <li class="tab-content-item">
+                    <button class="btn"><img class="icon" src="{{icon}}"/> {{label}}</button>
+                </li>{{/each}}
+            </ul>{{/each}}
         </div>
     </div>
 </div>
